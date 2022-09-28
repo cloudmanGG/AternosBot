@@ -50,7 +50,7 @@ const translateBoolean = boolean => {
 };
 const startmc = (server, username) => {
   return mc.createClient({
-    host: server,
+    host: dragonlandmc.ml,
     port: process.env.port ? process.env.port : null,
     username: username,
     password: process.env.password
